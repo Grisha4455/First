@@ -25,4 +25,8 @@ a:hover {
     background: deepskyblue;
     border: 2px solid cornflowerblue;
 }
+.test {
+    color: blue;
+    background: cornflowerblue;
+}
 
