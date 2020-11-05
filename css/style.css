@@ -1,32 +1,29 @@
 header {
-    padding: 10px 0;
-    margin: 0;
+    height: 80px;
+    padding: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-ul {
-    margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
-    display: flex;
-    justify-content: center;
+.logo {
+    width: 50px;
+    height: 48px;
+    background: url("../images/logo.png") no-repeat;
+    background-size: 50px 48px;
 }
-
-li {
-    display: inline-block; /* Отображать как строчный элемент */
-    margin: 0 10px;
+.btn__header {
+    width: 100%;
+    color: #868686;
+    padding: 10px;
+    border-radius: 5px;
+    font-size:12px;
+    cursor: pointer;
+    text-align: center;
 }
-a {
-    padding: 15px 25px;
-    text-decoration: none;
-    background: cornflowerblue;
-    color: white;
-    border: 2px solid deepskyblue;
+.active {
+    color: #FFFFFF!important;
+    background: darkorange!important;
 }
-
-a:hover {
-    background: deepskyblue;
-    border: 2px solid cornflowerblue;
+.hero {
+    position: relative;
+    min-height: 500px;
+    background: #709dca;
 }
-.test {
-    color: blue;
-    background: cornflowerblue;
-}
-
