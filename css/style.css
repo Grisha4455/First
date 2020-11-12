@@ -1,32 +1,94 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 header {
-    padding: 10px 0;
-    margin: 0;
+    height: 80px;
+    padding: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-ul {
-    margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
-    display: flex;
-    justify-content: center;
+.logo {
+    width: 50px;
+    height: 48px;
+    background: url("../images/logo.png") no-repeat;
+    background-size: 50px 48px;
+}
+.btn__header {
+    width: 100%;
+    color: #868686;
+    padding: 10px;
+    border-radius: 5px;
+    font-size:11px;
+    cursor: pointer;
+    text-align: center;
+}
+.btn__header:hover {
+    color: #FFFFFF!important;
+    background: darkorange!important;
+}
+.active {
+    color: #FFFFFF!important;
+    background: darkorange!important;
+}
+.hero {
+    position: relative;
+    min-height: 500px;
+    background: #709dca;
 }
 
-li {
-    display: inline-block; /* Отображать как строчный элемент */
-    margin: 0 10px;
+.hero-title {
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 600;
 }
-a {
-    padding: 15px 25px;
-    text-decoration: none;
-    background: cornflowerblue;
-    color: white;
-    border: 2px solid deepskyblue;
+.hero-description{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+}
+input[type=text] {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin: auto;
+}
+input[type=button] {
+    width: 100%;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 3px;
+    margin: auto;
+    text-transform: uppercase;
+    background: darkorange;
+    color: #ffffff;
+}
+.hp{
+    font-size: 30px;
+}
+.hero-image {
+    width: 648px;
+    height: 360px;
+    background: url("../images/Laptop.png");
+    background-size: contain;
+    margin: auto;
+    position: relative;
+    bottom: -70px;
+}
+.services {
+    padding: 200px 0 50px;
+}
+.services__title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.services__subtitle {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
 }
 
-a:hover {
-    background: deepskyblue;
-    border: 2px solid cornflowerblue;
-}
-.test {
-    color: blue;
-    background: cornflowerblue;
-}
 
