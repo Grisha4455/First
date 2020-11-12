@@ -1,3 +1,6 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 header {
     height: 80px;
     padding: 16px;
@@ -14,9 +17,13 @@ header {
     color: #868686;
     padding: 10px;
     border-radius: 5px;
-    font-size:12px;
+    font-size:11px;
     cursor: pointer;
     text-align: center;
+}
+.btn__header:hover {
+    color: #FFFFFF!important;
+    background: darkorange!important;
 }
 .active {
     color: #FFFFFF!important;
@@ -26,4 +33,33 @@ header {
     position: relative;
     min-height: 500px;
     background: #709dca;
+}
+
+.hero-title {
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 600;
+}
+.hero-description{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+}
+input[type=text] {
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin: auto;
+}
+input[type=button] {
+    border: none;
+    padding: 10px 50px;
+    border-radius: 3px;
+    margin: auto;
+    text-transform: uppercase;
+    background: darkorange;
+    color: #ffffff;
 }
